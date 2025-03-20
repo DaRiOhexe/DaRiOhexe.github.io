@@ -1,0 +1,66 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e1e1e, #3a3a3a);
+    color: white;
+}
+
+/* Centrado y estilo del formulario */
+form {
+    background-color: rgba(255, 255, 255, 0.1); /* Transparente mate */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Estilo de etiquetas e inputs */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 14px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Botón con efecto de neón */
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(90deg, #ff6ec4, #7873f5);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: 0 0 5px #ff6ec4, 0 0 10px #7873f5;
+    box-shadow: 0 0 20px #ff6ec4, 0 0 30px #7873f5;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(90deg, #7873f5, #ff6ec4);
+    box-shadow: 0 0 30px #ff6ec4, 0 0 40px #7873f5;
+    text-shadow: 0 0 10px #ff6ec4, 0 0 15px #7873f5;
+}
