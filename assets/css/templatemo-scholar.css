@@ -26,6 +26,9 @@ font & reset css
 --------------------------------------------- 
 */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
+:root {
+  --brand: #153E85; 
+}
 /* 
 ---------------------------------------------
 reset
@@ -175,6 +178,27 @@ body {
   color: #fff;
 }
 
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  max-height: 40px;
+}
+
+.btn-brand {
+  border-color: var(--brand);
+  background-color: var(--brand);
+  color: #fff;
+}
+
+.btn-brand:hover {
+  background-color: #153E85;
+  border-color: #153E85;
+  color: #fff;
+}
 /* 
 ---------------------------------------------
 Pre-loader Style
